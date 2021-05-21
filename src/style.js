@@ -71,7 +71,7 @@ export const ContentFirstContainer = styled.div`
   font-size: 25px;
   justify-content: space-around;
   padding: 5px;
-  width: 60%;
+  width: 300px;
   h2 {
     color: #8ef5fa;
     font-size: 10px;
@@ -79,6 +79,9 @@ export const ContentFirstContainer = styled.div`
   }
   p {
     margin: 0;
+  }
+  button {
+    width: 200px;
   }
 `;
 
@@ -170,7 +173,6 @@ export const TitleThirdContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -3px;
   text-align: end;
   width: 90%;
   small {
@@ -191,6 +193,7 @@ export const CoursesThirdContainer = styled.div`
   color: #007688;
   font-size: 15px;
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
   text-align: center;
   width: 80%;
@@ -201,6 +204,7 @@ export const FourthContainer = styled.div`
   align-items: center;
   background-color: #fff;
   display: flex;
+  flex-direction: column;
   width: 100%;
 
   img {
@@ -226,9 +230,9 @@ export const FifthContainer = styled.div`
   align-items: center;
   background-color: #edfffe;
   box-sizing: border-box;
-  justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 25px 0;
   width: 100%;
   button {
