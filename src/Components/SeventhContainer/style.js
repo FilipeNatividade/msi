@@ -5,8 +5,9 @@ export const Container = styled.div`
   background-color: #007688;
   box-sizing: border-box;
   color: #fff;
-  justify-content: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 25px 0;
@@ -32,4 +33,16 @@ export const Container = styled.div`
     height: 150px;
     width: 80%;
   }
+`;
+
+export const CoursesAvailable = styled.button`
+  background-color: #ff4d9a;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 5px 15px;
 `;
